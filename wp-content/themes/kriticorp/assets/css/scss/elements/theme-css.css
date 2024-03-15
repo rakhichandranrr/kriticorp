@@ -1360,11 +1360,13 @@
 }
 
 .bg_dark_2 {
-  background: var(--primary-color-two) !important;
+/*  background: var(--primary-color-two) !important;*/
+  background: #fff !important;
 }
 
 .bg_dark_3 {
-  background: var(--primary-color-five) !important;
+/*  background: var(--primary-color-five) !important;*/
+  background: #d5d5d5 !important;
 }
 
 /*--================bg dark colors ====================--*/
@@ -1472,6 +1474,10 @@ ul {
 
 .admin-bar .fixed-header .sticky_header_main {
   top: 32px;
+}
+
+.footer_copy_content.color_white {
+    color: #5d5d5d !important;
 }
 
 @media screen and (max-width: 782px) {
@@ -1588,7 +1594,8 @@ h6 a,
 h6 {
   font-weight: 700;
   margin: 0;
-  color: var(--primary-color-two);
+  color: #808080;
+/*  color: var(--primary-color-two);*/
   font-family: var(--creote-family-one);
   transition: 0.5s ease-in-out;
   -ms-transition: 0.5s ease-in-out;
@@ -1875,7 +1882,8 @@ body.error404 .left-sidebar .content-area {
   right: 0;
   left: 0;
   bottom: 0;
-  background: var(--primary-color-two);
+/*  background: var(--primary-color-two);*/
+  background:  #178acd8c;
   opacity: 0.85;
   z-index: 1;
 }
@@ -2852,11 +2860,14 @@ body .enabled_custom_title .title_page .main_tit {
   background: var(--primary-color-two);
   color: #fff;
 }
-
+marquee {
+    color: #615c5c !important;
+}
 /*--------topbar css-------------*/
 .top_bar {
-  position: relative;
-  background: var(--primary-color-two);
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #ccc;
 }
 .top_bar .top_inner {
   display: table;
@@ -12497,7 +12508,8 @@ header .flaticon-list {
 .project_post.style_one .project_caro_content h2 a {
   font-size: 20px;
   font-weight: 700;
-  color: var(--heading-dark);
+  color:#808080;
+/*  color: var(--heading-dark);*/
   display: block;
   line-height: 30px;
 }
@@ -15167,7 +15179,8 @@ header .flaticon-list {
   font-size: 38px;
   line-height: 50px;
   font-weight: 700;
-  color: var(--heading-dark);
+    color: #808080;
+/*  color: var(--heading-dark);*/
   padding: 0px 0px 10px 0px;
   font-family: var(--creote-family-one);
 }
@@ -16081,7 +16094,7 @@ header .flaticon-list {
   color: #fff;
 }
 .area_of_expertise .title_and_video .title_sections p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
 }
 .area_of_expertise .expertise_box {
   position: relative;
@@ -16157,20 +16170,23 @@ header .flaticon-list {
   left: 0;
   bottom: 0;
 }
-.area_of_expertise::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(300deg, var(--primary-color-two) 40%, rgba(0, 0, 0, 0.09) 100%);
-  opacity: 0.9;
-  z-index: 1;
-}
 
+.area_of_expertise::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(300deg, #1d98dfb5 40%, rgba(0, 0, 0, 0.09) 100%);
+    opacity: 0.9;
+    z-index: 1;
+}
+a.theme-btn.one {
+    border: 1px solid #ffff;
+}
 /*---==========================================-----
 -----==================testimonial_sec ===============-----
 -----=========================================-----*/
@@ -20473,7 +20489,8 @@ header .flaticon-list {
   text-align: center;
   display: block;
   border-radius: 50px;
-  background: var(--primary-color-two);
+/*  background: var(--primary-color-two);*/
+  background: #1d98df;
   color: #fff;
   transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -25631,7 +25648,7 @@ form .wpcf7-response-output {
 .footer_widgets .fo_wid_title h2 {
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: #1d98df;
   font-weight: 700;
   margin-bottom: 5px;
 }
@@ -25695,7 +25712,7 @@ form .wpcf7-response-output {
 .footer_widgets.about_company .content_box .consulting .help_con h2 a {
   font-size: 16px;
   font-weight: 600;
-  color: #FFF;
+  color: #1d98df;
   line-height: 26px;
   margin-bottom: 0px;
   display: block;
@@ -25719,7 +25736,7 @@ form .wpcf7-response-output {
 .footer_widgets.get_in_touch_foo .foo_cont_inner .top h6, .footer_widgets.get_in_touch_foo .foo_cont_inner .bottom h6 {
   font-size: 18px;
   line-height: 26px;
-  color: #fff;
+  color: #1d98df;
   font-weight: 600;
   margin-bottom: 8px;
 }
@@ -25739,7 +25756,7 @@ form .wpcf7-response-output {
   font-family: var(--creote-family-two);
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: #1d98df;
   line-height: 26px;
 }
 .footer_widgets.get_in_touch_foo .foo_cont_inner .bottom .con_content a {
