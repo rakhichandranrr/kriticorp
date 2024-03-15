@@ -1,0 +1,33 @@
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 60.5 MB/1 GB - admin@kriticorp > Start upgrade from 0.0.0
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 61.0 MB/1 GB - admin@kriticorp > Array
+(
+    [`ktc_newsletter_emails`] => Created table `ktc_newsletter_emails`
+)
+
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 60.9 MB/1 GB - admin@kriticorp > Array
+(
+    [`ktc_newsletter_sent`] => Created table `ktc_newsletter_sent`
+)
+
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 61.0 MB/1 GB - admin@kriticorp > Array
+(
+    [`ktc_newsletter`] => Created table `ktc_newsletter`
+)
+
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 60.9 MB/1 GB - admin@kriticorp > Array
+(
+    [`ktc_newsletter_user_logs`] => Created table `ktc_newsletter_user_logs`
+)
+
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 61.0 MB/1 GB - admin@kriticorp > Array
+(
+    [`ktc_newsletter_user_meta`] => Created table `ktc_newsletter_user_meta`
+)
+
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 61.0 MB/1 GB - admin@kriticorp > Array
+(
+    [`ktc_newsletter_stats`] => Created table `ktc_newsletter_stats`
+)
+
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 61.0 MB/1 GB - admin@kriticorp > Backing up options of 0.0.0
+09-11-2023 05:11:27 - INFO  - 8.0.3 - 61.0 MB/1 GB - admin@kriticorp > End
