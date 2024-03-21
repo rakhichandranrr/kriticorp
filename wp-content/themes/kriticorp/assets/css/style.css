@@ -886,6 +886,22 @@ section#about .pd_bottom_80 {
   font-size: 14px;
 }
 
+.search-no-results .no-results.not-found {
+  padding: 0 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.search-no-results .no-results.not-found .search-submit {
+  min-height: 35px;
+  background: #1d98df;
+
+}
+.search-no-results .no-results.not-found .page-header{
+  padding: 15px 0 0;
+}
+
+
+
 @media only screen and (max-width: 991px) {
   .service-grid {
       flex-direction: column;
